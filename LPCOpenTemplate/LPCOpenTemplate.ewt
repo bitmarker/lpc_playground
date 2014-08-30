@@ -200,6 +200,15 @@
   <file>
     <name>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\sysinit.c</name>
   </file>
+  <file>
+    <name>$PROJ_DIR$\uart_helper.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\uart_helper.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\utils.h</name>
+  </file>
 </project>
 
 
