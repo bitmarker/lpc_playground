@@ -301,11 +301,11 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>D:\20_Development\01_Embedded\LPC\LPCOpenTemplate\lpcopen\lpc_core\lpc_chip\chip_11xx</state>
-          <state>D:\20_Development\01_Embedded\LPC\LPCOpenTemplate\lpcopen\lpc_core\lpc_chip\chip_common</state>
-          <state>D:\20_Development\01_Embedded\LPC\LPCOpenTemplate\lpcopen\lpc_core\lpc_chip</state>
-          <state>D:\20_Development\01_Embedded\LPC\LPCOpenTemplate\lpcopen\CMSIS\CMSIS\Include</state>
-          <state>D:\20_Development\01_Embedded\LPC\LPCOpenTemplate\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx</state>
+          <state>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx</state>
+          <state>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common</state>
+          <state>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip</state>
+          <state>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include</state>
+          <state>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -563,7 +563,7 @@
         </option>
         <option>
           <name>AUserIncludes</name>
-          <state>D:\20_Development\01_Embedded\LPC\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\config_11cxx</state>
+          <state>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx</state>
         </option>
         <option>
           <name>AExtraOptionsCheckV2</name>

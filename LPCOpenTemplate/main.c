@@ -19,8 +19,8 @@ static uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
 
 static void Init_UART_PinMux()
 {
-  Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO1_6, (IOCON_FUNC1 | IOCON_MODE_INACT));/* RXD */
-  Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO1_7, (IOCON_FUNC1 | IOCON_MODE_INACT));/* TXD */
+  Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO1_6, (IOCON_FUNC1 | IOCON_MODE_INACT)); // RXD
+  Chip_IOCON_PinMuxSet(LPC_IOCON, IOCON_PIO1_7, (IOCON_FUNC1 | IOCON_MODE_INACT)); // TXD
 }
 
 void UART_IRQHandler(void)
@@ -43,7 +43,7 @@ FILE __stdout;
 
 int fputc(int ch, FILE *stream)
 {
-   Chip_UART_SendBlocking(LPC_USART, &ch, 1);
+   Chip_UART_SendRB(LPC_USART, &txring, &ch, 1);
    return ch;
 }
 
@@ -54,8 +54,6 @@ int main()
   float temp = 0;
   
   Init_UART_PinMux();
-  
-  
   
   Chip_UART_Init(LPC_USART);
   Chip_UART_SetBaud(LPC_USART, 9600);
@@ -71,10 +69,6 @@ int main()
   NVIC_SetPriority(UART0_IRQn, 1);
   NVIC_EnableIRQ(UART0_IRQn);
 
-  
-  
-
-  
   
   i2c_app_init(DEFAULT_I2C, I2C_DEFAULT_SPEED);
   
