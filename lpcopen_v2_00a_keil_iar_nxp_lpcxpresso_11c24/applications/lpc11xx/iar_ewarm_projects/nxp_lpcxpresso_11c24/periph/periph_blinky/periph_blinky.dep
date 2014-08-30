@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4022961001</fileChecksum>
+  <configuration>
+    <name>iflash_nxp_lpcxpresso_11c24</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\startup_code\iar_startup_lpc11xx.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_board\boards_11xx\nxp_lpcxpresso_11c24\iar_output\Exe\board_nxp_lpcxpresso_11c24.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\examples\periph\periph_blinky\blinky.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\startup_code\sysinit.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_board\boards_11xx\nxp_lpcxpresso_11c24\board.h</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\blinky.o</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\blinky.pbi</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\sysinit.o</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\iar_startup_lpc11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\sysinit.pbi</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Exe\blinky_iflash_nxp_lpcxpresso_11c24.out</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Exe\periph_blinky.bin</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\periph_blinky.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\List\blinky_iflash_nxp_lpcxpresso_11c24.map</file>
+      <file>$TOOLKIT_DIR$\config\linker\NXP\LPC11C24FBD48_301.icf</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_board\board_common\board_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\adc_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_common\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\romapi_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\wwdt_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\software\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\startup_code\iar_startup_lpc11xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\examples\periph\periph_blinky\blinky.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 51 52 35 36 39 40 43 44 45 46 47 48 49 56 55 53 54 50 57 42 41 38 37 34 19 33 32 31 30 29 28 27 26 25 24 23 22 21 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 51 52 35 36 39 40 43 44 45 46 47 48 49 56 55 53 54 50 57 42 41 38 37 34 19 33 32 31 30 29 28 27 26 25 24 23 22 21 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\startup_code\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 51 52 35 36 39 40 43 44 45 46 47 48 49 56 55 53 54 50 57 42 41 38 37 34 19 33 32 31 30 29 28 27 26 25 24 23 22 21 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 51 52 35 36 39 40 43 44 45 46 47 48 49 56 55 53 54 50 57 42 41 38 37 34 19 33 32 31 30 29 28 27 26 25 24 23 22 21 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\iar_output\iflash_nxp_lpcxpresso_11c24\Exe\blinky_iflash_nxp_lpcxpresso_11c24.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 16 6 1 2 9 8 18 17 14</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

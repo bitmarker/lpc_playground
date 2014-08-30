@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4286923398</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</file>
+      <file>$PROJ_DIR$\swo.c</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\startup_code\sysinit.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.o</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\First.pbd</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\chip.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_common\error.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\swo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\swo.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\romapi_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_lpc11xx.o</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\config\linker\NXP\LPC11C24FBD48_301.icf</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\wwdt_11xx.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\adc_11xx.h</file>
+      <file>C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\examples\periph\periph_i2c\i2c.c</file>
+      <file>C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\examples\periph\periph_uart\uart.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 8 10 6 17 5 49 50 51 28 52 43 53 39 30 40 31 34 29 42 41 45 54 44 24 47 25 55 18 27 19 56 32 16 36 22 23 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 10 6 17 5 49 50 51 28 52 43 53 39 30 40 31 34 29 42 41 45 54 44 24 47 25 55 18 27 19 56 32 16 36 22 23 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\swo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\startup_code\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 8 10 6 17 5 49 50 51 28 52 43 53 39 30 40 31 34 29 42 41 45 54 44 24 47 25 55 18 27 19 56 32 16 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 8 10 6 17 5 49 50 51 28 52 43 53 39 30 40 31 34 29 42 41 45 54 44 24 47 25 55 18 27 19 56 32 16 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 38 2 35 13 20 7 37 48 46 33</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

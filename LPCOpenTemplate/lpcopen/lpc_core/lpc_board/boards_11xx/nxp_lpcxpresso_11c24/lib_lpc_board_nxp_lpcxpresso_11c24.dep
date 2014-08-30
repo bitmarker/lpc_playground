@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2021149943</fileChecksum>
+  <configuration>
+    <name>nxp_lpcxpresso_11c24</name>
+    <outputs>
+      <file>$PROJ_DIR$\board_sysinit.c</file>
+      <file>$PROJ_DIR$\board.c</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board_sysinit.o</file>
+      <file>$PROJ_DIR$\iar_output\Exe\board_nxp_lpcxpresso_11c24.a</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board.o</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\uart_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\board_common\board_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\iocon_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\adc_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\wwdt_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\..\..\board_common\retarget.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\i2c_11xx.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\lib_lpc_board_nxp_lpcxpresso_11c24.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\clock_11xx.h</file>
+      <file>$PROJ_DIR$\iar_output\Obj\board_sysinit.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\romapi_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\timer_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\chip.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\board_sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 44 46 45 43 40 36 35 41 51 50 34 37 47 39 30 48 32 38 28 27 6 33 25 9 42 7 49 13 18 31 11 12 5 23 15 8 10 14 16 20 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 44 46 45 43 40 36 35 41 51 50 34 37 47 39 30 48 32 38 28 27 6 33 25 9 42 7 49 13 18 31 11 12 5 23 15 8 10 14 16 20 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 44 46 45 43 40 36 35 41 51 50 34 37 47 39 30 48 32 38 28 27 6 33 25 9 42 7 49 13 18 31 11 12 5 23 15 8 10 14 16 22 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 44 46 45 43 40 36 35 41 51 50 34 37 47 39 30 48 32 38 28 27 6 33 25 9 42 7 49 13 18 31 11 12 5 23 15 8 10 14 16 22 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

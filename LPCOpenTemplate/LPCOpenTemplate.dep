@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2579566371</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</file>
+      <file>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\sysinit.c</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\romapi_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_lpc11xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LPCOpenTemplate.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\chip.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\adc_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\NXP\LPC11C24FBD48_301.icf</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\wwdt_11xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MCP9808.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\MCP9808.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\i2c_helper.h</file>
+      <file>$PROJ_DIR$\i2c_helper.c</file>
+      <file>$PROJ_DIR$\MCP9808.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c_helper.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c_helper.o</file>
+      <file>$PROJ_DIR$\MCP9808.h</file>
+      <file>C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\i2c_11xx.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13 52 32 45 59 58 60 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13 52 32 45 59 58 60 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 49 0 64 15 20 55 48 40 41 42 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c_helper.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCP9808.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 22 43 23 25 34 16 67 29 39 24 36 31 35 8 5 46 30 19 33 53 17 11 37 10 50 7 14 54 9 4 28 26 38 27 13 60</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

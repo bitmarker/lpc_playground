@@ -1,0 +1,236 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 23/Aug/2014  17:57:42
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Exe\blinky_iflash_nxp_lpcxpresso_11c24.out.tmp
+#    Map file     =  
+#        C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\List\blinky_iflash_nxp_lpcxpresso_11c24.map
+#    Command line =  
+#        "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\blinky.o"
+#        "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_board\boards_11xx\nxp_lpcxpresso_11c24\iar_output\Exe\board_nxp_lpcxpresso_11c24.a"
+#        "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a"
+#        "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\iar_startup_lpc11xx.o"
+#        "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Obj\sysinit.o"
+#        -o "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Exe\blinky_iflash_nxp_lpcxpresso_11c24.out.tmp"
+#        --map "C:\Users\Leonid
+#        Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\List\blinky_iflash_nxp_lpcxpresso_11c24.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\NXP\LPC11C24FBD48_301.icf" --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000002fb] |
+                [from 0x00000300 to 0x00007fff] { ro };
+"P2":  place in [from 0x10000000 to 0x10001fdf] { rw, block CSTACK, block HEAP };
+
+  Section          Kind        Address   Size  Object
+  -------          ----        -------   ----  ------
+"A1":                                    0xc0
+  .intvec          ro code  0x00000000   0xc0  iar_startup_lpc11xx.o [1]
+                          - 0x000000c0   0xc0
+
+"P1", part 1 of 2:                        0x0
+  .rodata          const    0x000000c0    0x0  zero_init3.o [6]
+
+"P1", part 2 of 2:                      0x494
+  .text            ro code  0x00000300   0xd4  clock_11xx.o [4]
+  .text            ro code  0x000003d4   0xae  I32DivModFast.o [6]
+  .text            ro code  0x00000482   0x2a  zero_init3.o [6]
+  .text            ro code  0x000004ac    0x2  IntDivZer.o [6]
+  .text            ro code  0x000004ae    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x000004b0   0xc4  blinky.o [1]
+  .text            ro code  0x00000574   0x2c  board.o [3]
+  .text            ro code  0x000005a0   0x10  chip_11xx.o [4]
+  .text            ro code  0x000005b0   0x54  timer_11xx.o [4]
+  .text            ro code  0x00000604   0x10  gpio_11xx_2.o [4]
+  .text            ro code  0x00000614   0xa8  board_sysinit.o [3]
+  .text            ro code  0x000006bc   0x28  sysctl_11xx.o [4]
+  .text            ro code  0x000006e4   0x28  data_init.o [6]
+  .iar.init_table  const    0x0000070c   0x10  - Linker created -
+  .text            ro code  0x0000071c   0x1a  cmain.o [6]
+  .text            ro code  0x00000736    0x4  low_level_init.o [5]
+  .text            ro code  0x0000073a    0x8  exit.o [5]
+  .text            ro code  0x00000742    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x00000744    0xa  cexit.o [6]
+  .text            ro code  0x0000074e    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x00000750    0xc  XXexit.o [6]
+  .text            ro code  0x0000075c   0x10  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x0000076c    0xc  cstartup_M.o [6]
+  .text            ro code  0x00000778    0x8  sysinit.o [1]
+  .rodata          const    0x00000780    0x4  board.o [3]
+  .text            ro code  0x00000784    0x4  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x00000788    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x0000078a    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x0000078c    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x0000078e    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x00000790    0x2  iar_startup_lpc11xx.o [1]
+  .text            ro code  0x00000792    0x2  iar_startup_lpc11xx.o [1]
+                          - 0x00000794  0x494
+
+"P2":                                   0x408
+  .bss             zero     0x10000000    0x4  chip_11xx.o [4]
+  CSTACK                    0x10000008  0x400  <Block>
+    CSTACK         uninit   0x10000008  0x400  <Block tail>
+                          - 0x10000408  0x408
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x10000000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Obj: [1]
+    blinky.o                   196
+    iar_startup_lpc11xx.o      230
+    sysinit.o                    8
+    ------------------------------------------------
+    Total:                     434
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+board_nxp_lpcxpresso_11c24.a: [3]
+    board.o                     44        4
+    board_sysinit.o            168
+    ------------------------------------------------
+    Total:                     212        4
+
+chip_11cxx_lib.a: [4]
+    chip_11xx.o                 16                 4
+    clock_11xx.o               212
+    gpio_11xx_2.o               16
+    sysctl_11xx.o               40
+    timer_11xx.o                84
+    ------------------------------------------------
+    Total:                     368                 4
+
+dl6M_tln.a: [5]
+    exit.o                       8
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                      12
+
+rt6M_tl.a: [6]
+    I32DivModFast.o            174
+    IntDivZer.o                  2
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                42
+    ------------------------------------------------
+    Total:                     318
+
+    Linker created                       16    1 024
+----------------------------------------------------
+    Grand Total:             1 344       20    1 028
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                  0x0000071d        Code  Gb  cmain.o [6]
+Board_Init             0x00000581  0x16  Code  Gb  board.o [3]
+Board_LED_Set          0x00000575   0xc  Code  Gb  board.o [3]
+Board_SystemInit       0x00000615  0x72  Code  Gb  board_sysinit.o [3]
+CSTACK$$Base           0x10000008         --   Gb  - Linker created -
+CSTACK$$Limit          0x10000408         --   Gb  - Linker created -
+Chip_Clock_GetSystemClockRate
+                       0x00000315  0x6a  Code  Gb  clock_11xx.o [4]
+Chip_Clock_SetMainClockSource
+                       0x00000305   0x2  Code  Gb  clock_11xx.o [4]
+Chip_Clock_SetSystemPLLSource
+                       0x00000301   0x4  Code  Gb  clock_11xx.o [4]
+Chip_GPIO_Init         0x00000605   0xc  Code  Gb  gpio_11xx_2.o [4]
+Chip_SYSCTL_PowerDown  0x000006bd   0xa  Code  Gb  sysctl_11xx.o [4]
+Chip_SYSCTL_PowerUp    0x000006cd   0xe  Code  Gb  sysctl_11xx.o [4]
+Chip_TIMER_Init        0x000005b1  0x2a  Code  Gb  timer_11xx.o [4]
+Chip_TIMER_Reset       0x000005ed  0x18  Code  Gb  timer_11xx.o [4]
+OscRateIn              0x00000780   0x4  Data  Gb  board.o [3]
+Region$$Table$$Base    0x0000070c         --   Gb  - Linker created -
+Region$$Table$$Limit   0x0000071c         --   Gb  - Linker created -
+SysTick_Handler        0x000004b1   0xc  Code  Gb  blinky.o [1]
+SystemCoreClock        0x10000000   0x4  Data  Gb  chip_11xx.o [4]
+SystemCoreClockUpdate  0x000005a1  0x10  Code  Gb  chip_11xx.o [4]
+SystemInit             0x00000779   0x8  Code  Gb  sysinit.o [1]
+TIMER32_0_IRQHandler   0x000004bd  0x1a  Code  Gb  blinky.o [1]
+__Vectors              0x00000000         --   Gb  iar_startup_lpc11xx.o [1]
+__Vectors_End          0x000000c0        Data  Gb  iar_startup_lpc11xx.o [1]
+__Vectors_Size {Abs}   0x000000c0         --   Gb  iar_startup_lpc11xx.o [1]
+__aeabi_idiv0          0x000004ad        Code  Gb  IntDivZer.o [6]
+__aeabi_uidiv          0x000003d5        Code  Gb  I32DivModFast.o [6]
+__aeabi_uidivmod       0x000003d5        Code  Gb  I32DivModFast.o [6]
+__as_entries_start     0xffffffff         --   Gb  command line/config [2]
+__as_table_start       0xffffffff         --   Gb  command line/config [2]
+__cmain                0x0000071d        Code  Gb  cmain.o [6]
+__exit                 0x00000751        Code  Gb  XXexit.o [6]
+__iar_data_init3       0x000006e5  0x28  Code  Gb  data_init.o [6]
+__iar_program_start    0x0000076d        Code  Gb  cstartup_M.o [6]
+__iar_zero_init3       0x00000483  0x2a  Code  Gb  zero_init3.o [6]
+__low_level_init       0x00000737   0x4  Code  Gb  low_level_init.o [5]
+__vector_table         0x00000000        Data  Gb  iar_startup_lpc11xx.o [1]
+__vector_table_0x1c    0x0000001c        Data  Gb  iar_startup_lpc11xx.o [1]
+_call_main             0x00000729        Code  Gb  cmain.o [6]
+_exit                  0x00000745        Code  Gb  cexit.o [6]
+_main                  0x00000733        Code  Gb  cmain.o [6]
+exit                   0x0000073b   0x8  Code  Gb  exit.o [5]
+main                   0x000004d7  0x84  Code  Gb  blinky.o [1]
+pinmuxing              0x00000694  0x28  Data  Lc  board_sysinit.o [3]
+wdtOSCRate             0x00000394  0x40  Data  Lc  clock_11xx.o [4]
+
+
+[1] = C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\applications\lpc11xx\iar_ewarm_projects\nxp_lpcxpresso_11c24\periph\periph_blinky\iar_output\iflash_nxp_lpcxpresso_11c24\Obj
+[2] = command line
+[3] = board_nxp_lpcxpresso_11c24.a
+[4] = chip_11cxx_lib.a
+[5] = dl6M_tln.a
+[6] = rt6M_tl.a
+
+  1 344 bytes of readonly  code memory
+     20 bytes of readonly  data memory
+  1 028 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

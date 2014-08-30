@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4033290112</fileChecksum>
+  <configuration>
+    <name>chip_11cxx_lib</name>
+    <outputs>
+      <file>$PROJ_DIR$\acmp_11xx.c</file>
+      <file>$PROJ_DIR$\adc_11xx.c</file>
+      <file>$PROJ_DIR$\adc_1125.c</file>
+      <file>$PROJ_DIR$\chip_11xx.c</file>
+      <file>$PROJ_DIR$\clock_11xx.c</file>
+      <file>$PROJ_DIR$\dac_11xx.c</file>
+      <file>$PROJ_DIR$\i2c_11xx.c</file>
+      <file>$PROJ_DIR$\gpio_11xx_1.c</file>
+      <file>$PROJ_DIR$\gpio_11xx_2.c</file>
+      <file>$PROJ_DIR$\gpiogroup_11xx.c</file>
+      <file>$PROJ_DIR$\iocon_11xx.c</file>
+      <file>$PROJ_DIR$\pmu_11xx.c</file>
+      <file>$PROJ_DIR$\pinint_11xx.c</file>
+      <file>$PROJ_DIR$\ssp_11xx.c</file>
+      <file>$PROJ_DIR$\..\chip_common\ring_buffer.c</file>
+      <file>$PROJ_DIR$\timer_11xx.c</file>
+      <file>$PROJ_DIR$\sysctl_11xx.c</file>
+      <file>$PROJ_DIR$\sysinit_11xx.c</file>
+      <file>$PROJ_DIR$\uart_11xx.c</file>
+      <file>$PROJ_DIR$\wwdt_11xx.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\adc_1125.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\adc_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\clock_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\dac_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\acmp_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\chip_11xx.o</file>
+      <file>$PROJ_DIR$\gpio_11xx_2.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\gpio_11xx_1.o</file>
+      <file>$PROJ_DIR$\config_11cxx\sys_config.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\iocon_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\gpio_11xx_2.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\gpiogroup_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\i2c_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\pinint_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\pmu_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\ring_buffer.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\sysctl_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\sysinit_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\timer_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\uart_11xx.o</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\wwdt_11xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\config_11cxx\cmsis_11cxx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\chip.h</file>
+      <file>$PROJ_DIR$\..\chip_common\lpc_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\iar_output\chip_11cxx_lib\Obj\ssp_11xx.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\cmsis.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\sysctl_11xx.h</file>
+      <file>$PROJ_DIR$\romapi_11xx.h</file>
+      <file>$PROJ_DIR$\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\clock_11xx.h</file>
+      <file>$PROJ_DIR$\iocon_11xx.h</file>
+      <file>$PROJ_DIR$\timer_11xx.h</file>
+      <file>$PROJ_DIR$\uart_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\wwdt_11xx.h</file>
+      <file>$PROJ_DIR$\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\..\chip_common\error.h</file>
+      <file>$PROJ_DIR$\adc_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\i2c_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\ccand_11xx.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\acmp_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc_1125.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\chip_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\clock_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dac_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\gpio_11xx_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\gpio_11xx_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\gpiogroup_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\iocon_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pmu_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pinint_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ssp_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\chip_common\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 55 20 56 74 42 49 48 69 76 60 51 52 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sysctl_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sysinit_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\wwdt_11xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 51 52 55 20 56 74 42 49 48 47 29 57 45 44 59 58 46 53 63 64 61 65 66 67 68 60 70 71 62 72 73 27 75 78</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
