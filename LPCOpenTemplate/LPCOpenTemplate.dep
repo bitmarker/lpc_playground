@@ -12,99 +12,90 @@
       <file>$PROJ_DIR$\MCP9808.c</file>
       <file>$PROJ_DIR$\MCP9808.h</file>
       <file>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\uart_helper.c</file>
       <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$PROJ_DIR$\uart_helper.h</file>
       <file>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\sysinit.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\iar_startup_lpc11xx.o</file>
+      <file>$PROJ_DIR$\utils.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\romapi_11xx.h</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
       <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_lpc11xx.o</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
       <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.o</file>
       <file>$PROJ_DIR$\Debug\Obj\LPCOpenTemplate.pbd</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\chip.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\adc_11xx.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cmFunc.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\error.h</file>
       <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-      <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cmFunc.h</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
       <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
-      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
       <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
       <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
       <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
       <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
       <file>$PROJ_DIR$\Debug\Obj\sysinit.o</file>
       <file>$TOOLKIT_DIR$\config\linker\NXP\LPC11C24FBD48_301.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
       <file>$PROJ_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cmInstr.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\MCP9808.pbi</file>
+      <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
       <file>$PROJ_DIR$\Debug\Obj\sysinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\MCP9808.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
       <file>$PROJ_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\wwdt_11xx.h</file>
       <file>$PROJ_DIR$\Debug\Obj\MCP9808.o</file>
-      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
       <file>$TOOLKIT_DIR$\inc\c\string.h</file>
       <file>$PROJ_DIR$\Debug\Obj\i2c_helper.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\i2c_helper.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
       <file>$PROJ_DIR$\Debug\Obj\uart_helper.pbi</file>
-      <file>$PROJ_DIR$\utils.h</file>
-      <file>$PROJ_DIR$\uart_helper.c</file>
-      <file>$PROJ_DIR$\uart_helper.h</file>
       <file>$PROJ_DIR$\Debug\Obj\uart_helper.o</file>
     </outputs>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>ILINK</name>
-          <file> 12</file>
-        </tool>
-      </outputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\i2c_helper.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 61</file>
+          <name>ICCARM</name>
+          <file> 65</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 62</file>
+          <name>BICOMP</name>
+          <file> 64</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 2 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
+          <name>ICCARM</name>
+          <file> 2 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 2 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
+          <name>BICOMP</name>
+          <file> 2 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
         </tool>
       </inputs>
     </file>
@@ -112,22 +103,22 @@
       <name>$PROJ_DIR$\MCP9808.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 54</file>
+          <name>ICCARM</name>
+          <file> 61</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 57</file>
+          <name>BICOMP</name>
+          <file> 58</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 4 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13 2</file>
+          <name>ICCARM</name>
+          <file> 4 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17 2</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 4 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13 2</file>
+          <name>BICOMP</name>
+          <file> 4 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17 2</file>
         </tool>
       </inputs>
     </file>
@@ -136,13 +127,36 @@
       <outputs>
         <tool>
           <name>AARM</name>
-          <file> 10</file>
+          <file> 19</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>AARM</name>
-          <file> 37</file>
+          <file> 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_helper.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
         </tool>
       </inputs>
     </file>
@@ -150,22 +164,22 @@
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
+          <name>ICCARM</name>
           <file> 24</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 21</file>
+          <name>BICOMP</name>
+          <file> 27</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13 51 32 46 60 59 2 4 67 65</file>
+          <name>ICCARM</name>
+          <file> 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17 52 34 49 63 62 2 4 8 10</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13 51 32 46 60 59 2 4 67 65</file>
+          <name>BICOMP</name>
+          <file> 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17 52 34 49 63 62 2 4 8 10</file>
         </tool>
       </inputs>
     </file>
@@ -173,22 +187,22 @@
       <name>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\sysinit.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 55</file>
+          <name>ICCARM</name>
+          <file> 50</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 47</file>
+          <name>BICOMP</name>
+          <file> 57</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
+          <name>ICCARM</name>
+          <file> 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
+          <name>BICOMP</name>
+          <file> 26 53 29 31 39 21 66 35 45 30 42 41 40 16 15 54 38 23 36 55 22 20 43 13 56 12 28 60 11 14 37 32 44 33 17</file>
         </tool>
       </inputs>
     </file>
@@ -197,32 +211,18 @@
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 48 0 62 10 21 57 47 68 42 44 45 58</file>
+          <file> 51 0 65 19 24 61 50 68 46 47 48 59</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\uart_helper.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 64</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 68</file>
+          <name>ILINK</name>
+          <file> 18</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 67 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
-        </tool>
-        <tool>
-          <name>ICCARM</name>
-          <file> 67 25 49 26 28 36 20 63 31 43 27 39 37 38 16 17 50 34 19 35 53 18 8 41 14 52 11 23 56 6 15 33 30 40 29 13</file>
-        </tool>
-      </inputs>
     </file>
   </configuration>
   <configuration>

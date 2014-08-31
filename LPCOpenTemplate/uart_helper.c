@@ -36,3 +36,8 @@ uint32_t uart_send_rb(void *data, int len)
 {
   return Chip_UART_SendRB(LPC_USART, &txring, data, len);
 }
+
+void uart_helper_irq_handler()
+{
+  Chip_UART_IRQRBHandler(LPC_USART, &rxring, &txring);
+}

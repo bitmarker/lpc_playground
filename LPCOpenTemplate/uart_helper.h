@@ -5,8 +5,9 @@
 
 void init_uart_pinmux();
 void uart_helper_init();
+void uart_helper_irq_handler();
 
-#define IRQ_UART_HANDLER void UART_IRQHandler(void) { Chip_UART_IRQRBHandler(LPC_USART, &rxring, &txring); }
+#define IRQ_UART_HANDLER void UART_IRQHandler(void) { uart_helper_irq_handler(); }
 
 uint32_t uart_send_rb(void *data, int len);
 

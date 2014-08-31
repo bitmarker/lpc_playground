@@ -19,7 +19,7 @@
           
           
           
-        <Column0>192</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>225</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Disassembly>
         <col-names>
@@ -39,7 +39,7 @@
       
       
       
-    <Wnd0>
+    <Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-10536-12462</Identity>
@@ -55,7 +55,7 @@
           </Tab>
         <Tab><Identity>TabID-18160-23746</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd3>
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-21284-12466</Identity>
@@ -67,20 +67,20 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-1017-21244</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-12458-8585</Identity><TabName>Quick Watch</TabName><Factory>QuickWatch</Factory></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-2072-17491</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd6><Tabs><Tab><Identity>TabID-1017-21244</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-12458-8585</Identity><TabName>Quick Watch</TabName><Factory>QuickWatch</Factory></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-2072-17491</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MCP9808.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>250</SelStart2><SelEnd2>250</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MCP9808.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>65</SelStart2><SelEnd2>65</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\i2c_helper.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>25</YPos2><SelStart2>1138</SelStart2><SelEnd2>1138</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>35</YPos2><SelStart2>986</SelStart2><SelEnd2>986</SelEnd2></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\i2c_helper.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>150</SelStart2><SelEnd2>150</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lpcopen\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>684</YPos2><SelStart2>32711</SelStart2><SelEnd2>32711</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Leonid Lezner\Downloads\lpcopen_v2_00a_keil_iar_nxp_lpcxpresso_11c24\software\lpc_core\lpc_chip\chip_11xx\i2c_11xx.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>325</YPos2><SelStart2>9903</SelStart2><SelEnd2>9903</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart_helper.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>158</SelStart2><SelEnd2>158</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\i2c_helper.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>48</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lpcopen\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>669</YPos2><SelStart2>22941</SelStart2><SelEnd2>22941</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\uart_helper.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>10</YPos2><SelStart2>1133</SelStart2><SelEnd2>1133</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>33</YPos2><SelStart2>811</SelStart2><SelEnd2>811</SelEnd2></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\lpcopen\CMSIS\CMSIS\Include\core_cm0.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>629</YPos2><SelStart2>31148</SelStart2><SelEnd2>31148</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MCP9808.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>384</SelStart2><SelEnd2>384</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-02705DA8><key>iaridepm.enu1</key></Toolbar-02705DA8></Sizes></Row0><Row1><Sizes><Toolbar-06D68A38><key>debuggergui.enu1</key></Toolbar-06D68A38></Sizes></Row1><Row2><Sizes><Toolbar-06D684C0><key>armjlink.enu1</key></Toolbar-06D684C0></Sizes></Row2></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>508</Bottom><Right>266</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>140449</sizeHorzCX><sizeHorzCY>250313</sizeHorzCY><sizeVertCX>188202</sizeVertCX><sizeVertCY>638298</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>508</Bottom><Right>594</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>140449</sizeHorzCX><sizeHorzCY>250313</sizeHorzCY><sizeVertCX>418539</sizeVertCX><sizeVertCY>638298</sizeVertCY></Rect></Wnd4></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>-2</Top><Left>592</Left><Bottom>508</Bottom><Right>792</Right><x>592</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>140449</sizeHorzCX><sizeHorzCY>250313</sizeHorzCY><sizeVertCX>140449</sizeVertCX><sizeVertCY>638298</sizeVertCY></Rect></Wnd5></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1426</Right><x>-2</x><y>-2</y><xscreen>1428</xscreen><yscreen>200</yscreen><sizeHorzCX>1002809</sizeHorzCX><sizeHorzCY>250313</sizeHorzCY><sizeVertCX>140449</sizeVertCX><sizeVertCY>250313</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00DF6610><key>iaridepm.enu1</key></Toolbar-00DF6610></Sizes></Row0><Row1><Sizes><Toolbar-087F9CF8><key>debuggergui.enu1</key></Toolbar-087F9CF8></Sizes></Row1><Row2><Sizes><Toolbar-087F1F30><key>armjlink.enu1</key></Toolbar-087F1F30></Sizes></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>530</Bottom><Right>299</Right><x>-2</x><y>-2</y><xscreen>225</xscreen><yscreen>207</yscreen><sizeHorzCX>140625</sizeHorzCX><sizeHorzCY>250000</sizeHorzCY><sizeVertCX>188125</sizeVertCX><sizeVertCY>642512</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>530</Bottom><Right>319</Right><x>-2</x><y>-2</y><xscreen>225</xscreen><yscreen>207</yscreen><sizeHorzCX>140625</sizeHorzCX><sizeHorzCY>250000</sizeHorzCY><sizeVertCX>200625</sizeVertCX><sizeVertCY>642512</sizeVertCY></Rect></Wnd6></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>317</Left><Bottom>530</Bottom><Right>687</Right><x>317</x><y>-2</y><xscreen>225</xscreen><yscreen>207</yscreen><sizeHorzCX>140625</sizeHorzCX><sizeHorzCY>250000</sizeHorzCY><sizeVertCX>231250</sizeVertCX><sizeVertCY>642512</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>205</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>207</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>250000</sizeHorzCY><sizeVertCX>140625</sizeVertCX><sizeVertCY>250000</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Project>
 
